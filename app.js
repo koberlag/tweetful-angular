@@ -17,6 +17,10 @@ angular.module('tweetful', ['ngRoute'])
     templateUrl: 'templates/about.html',
     controller: 'AboutController'
   })
+  .when('/aboutus', {
+    templateUrl: 'templates/aboutus.html',
+    controller: 'AboutUsController'
+  })
   .when('/team', {
     templateUrl: 'templates/team.html',
     controller: 'TeamController'
